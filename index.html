@@ -1,123 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!--whole main page-->
-
-<main id="whole">
-
-
-
-	
 <head>
-   <!--head-begins-->
-   <title>Meet landing page</title>
-  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-
-
-
-	<!-- the top logo-->
-	<img class="top-logo" src="assets/logo.svg" alt="logo">
-    
-    <!--link to css stylesheet-->
-	<link href="styles.css" rel="stylesheet" type="text/css" media="all" />
+  <title>Frontend Mentor | Meet landing page</title>
 </head>
 
-
-
-<body class="body">
-
-
-    <div class="bar">
-    	<!-- top bar-->
-
-    	<div class="middle">
-	  <div>    <!-- top bar - middle -->
-	<h1 style="line-height: 0.9">Group Chat for Everyone</h1>
-</div>
-<div>
-	<p class="barm">Meet makes it easy to connect with others face-to-face virtually and collabrate accross any device</p>
-</div>
-
-	<div class="top2b">
-		<!-- top bar - two buttons -->
-		<button class="button1" style="color: #fafafa">Download <span style="color: #8fe3f9">v1.3</span></button>
-	<button class="button2" style="color: #fafafa">What is it?</button>
-</div>
-       </div>
-    
-
-    <!-- top bar - left and right images-->
-    
-    <div class="left">
-    <img src="assets/image-hero-left.png">
+<body>
+  <div class="main">
+    <div class="logo"><img src="assets/logo.svg" alt="logo" />
     </div>
 
-    <div class="right">
-    <img src="assets/image-hero-right.png">
+    <div class="hero-section">
+
+      <div class="column1">
+        <img src="assets/desktop/image-hero-left.png" alt="hero image " />
+      </div>
+      <div class="column1-tablet">
+        <img class="heroImage-tablet" src="assets/tablet/image-hero.png" alt="hero image tablet" />
+      </div>
+      <div class="column2">
+        <h1 class="headline-main">Group Chat <br />for Everyone</h1>
+        <p class="main-paragraph">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="buttons">
+          <button class="button-one">
+            Download <span class="version">v1.3</span>
+          </button>
+          <button class="what-btn">What is It?</button>
+        </div>
+      </div>
+      <div class="column3">
+        <img class="hero-image-right" src="assets/desktop/image-hero-right.png" alt="hero image" />
+      </div>
     </div>
-</div>
 
-
-
-<div class="qw">
-	<div class="line"></div>
-	<div class="pro"></div>
-	<div class="numbb">01</div>
-</div>
-
-
-
-
-	<div class="gallm">
-		<!--images in line-->
-		<img class="gall" src="assets/image-woman-in-videocall.jpg" alt ="first" >
-		<img class="gall" src="assets/image-women-videochatting.jpg" alt="second">
-		<img class="gall" src="assets/image-men-in-meeting.jpg" alt="third">
-		<img class="gall" src="assets/image-man-texting.jpg" alt="fouth">
-	</div>
-
-
-	<!--second body-->
-    <div class="body2">
-        <span class="b1">Built for mordern use</span>
-        <h2 class="b2"> Smarter meetings, all in one place</h2>
-        <p class="b3"> Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+   
+<div class="center-number">
+    <div class="section__number-center">
+      <div class="section__line"></div>
+      <div class="section__badge">
+        <div class="section__number">01</div>
+      </div>
     </div>
-</body>	
+    <div class="products-section">
+      <div class="first-product">
+        <img class="first-image" src="assets/desktop/image-woman-in-videocall.jpg" alt="woman in video call" />
+      </div>
+      <div class="second-product">
+        <img class="second-image" src="assets/desktop/image-women-videochatting.jpg" alt="woman video chatting" />
+      </div>
+      <div class="third-product">
+        <img class="thrid-image" src="assets/desktop/image-men-in-meeting.jpg" alt="men in a meeting" />
+      </div>
+      <div class="fourth-product">
+        <img class="fourth-image" src="assets/desktop/image-man-texting.jpg" alt="man video texting" />
+      </div>
+    </div>
 
+    <div class="purpose-section">
+      <h3 class="subheading">BUILT FOR MORDERN USE</h3>
+      <h2 class="headline">
+        Smarter meetings,all</br>
+        in one place
+      </h2>
+      <div class="purpose-content">
+        <p class="paragraph-text">
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+    </div>
 
-<!-- divider 2-->
-    <div class="qww">
-	<div class="linee"></div>
-	<div class="proo"></div>
-	<div class="numbbb">02</div>
-</div>
-
+  
+    <div class="section__number-footer">
+      <div class="section__line"></div>
+      <div class="section__badge">
+        <div class="section__number">02</div>
+      </div>
+    </div>
 
 
     <footer class="footer">
-      <div class="footer-content">
       <div class="footer-column1">
-        <h2 class="footer-header">Experience more together</h2>
+        <div class="footer-headline">
+          <h2 class="footer-header">Experience more together</h2>
+        </div>
       </div>
-
       <div class="footer-column2">
         <p>
           Stay connected with reliable HD meetings and unlimited one-on-one
           and group video sessions.
         </p>
       </div>
-
-      <!-- footer button-->
       <div class="footer-column3">
-        <button class="bbw">Download <span style="color: #d9b8ff">v1.3</span></button>
+        <button class="footer-button">Download <span class="footer-version">v1.3</span></button>
       </div>
-    </div>
     </footer>
+  </div>
 
-</main>
+
+
+
+</body>
+
 </html>
