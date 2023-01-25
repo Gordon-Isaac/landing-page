@@ -572,7 +572,7 @@ margin-bottom: 64px;
 @media (max-width: 768px) {
   body {
     display: flex;
-    margin: 0;
+    margin: auto;
     overflow-x: hidden;
   }
 
@@ -1047,8 +1047,10 @@ margin-bottom: 64px;
 
 /* Responsive for tablet*/
 @media only screen and (min-width: 768px) and (max-width:1199px)  {
-  body {
-    margin: 0;
+   .main {
+    margin: auto;
+    padding: 0;
+    border: 0;
     overflow-x: hidden;
   }
 
